@@ -1,0 +1,83 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+out/
+captures/
+.navigation/
+
+# Local SDK / NDK paths
+local.properties
+
+# Kotlin
+*.kotlin_module
+*.kotlin_metadata
+.kotlin/
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Keystore & signing (never commit secrets)
+*.jks
+*.keystore
+signing.properties
+keystore.properties
+
+# Secrets & env
+.env
+.env.*
+*.pem
+secrets.properties
+google-services.json
+GoogleService-Info.plist
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*~
+
+# Test / coverage
+test-results/
+jacoco.exec
+.coverage
+htmlcov/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Misc
+*.orig
+*.bak
